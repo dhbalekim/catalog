@@ -110,7 +110,7 @@ apiVersion: tekton.dev/v1beta1
 kind: TaskRun
 metadata:
   name: example-run
-spec:
+spec:dddd
   taskRef:
     name: golang-build
   params:
